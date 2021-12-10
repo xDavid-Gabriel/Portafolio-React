@@ -1,0 +1,77 @@
+$theme-colors: (
+  "primary": hsl(213, 76, 17, 100%),
+  "secondary": hsl(356, 100, 65, 100%),
+  "success": hsl(213, 77, 14, 100%),
+  "info": hsl(213, 0, 54, 100%),
+  "warning": hsl(0, 0, 100, 100%),
+);
+
+//BOTONES
+$btn-border-radius: 50px;
+
+//LA NAVEGACION
+$navbar-light-color: rgb(255, 255, 255);
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-focus-width: 0;
+$btn-close-color: rgb(255, 255, 255);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700 !important;
+  color: hsl(0, 0, 100, 100%);
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+  color: hsl(213, 0, 54, 100%);
+  font-weight: 400;
+  font-size: 14px;
+}
+.font-serif {
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700 !important;
+  color: hsl(0, 0, 100, 100%);
+}
+.font-body {
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 400 !important;
+}
+@media (min-width: 576px) {
+  .img-sm-fluid {
+    max-width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  .img-md-fluid {
+    max-width: 100%;
+  }
+}
+//Nabvar
+.absolute-top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-light .navbar-brand {
+  flex-grow: 1;
+}
+
+.navbar-nav {
+  min-height: 90%;
+}
+.offcanvas-body {
+  padding: 0 1rem;
+}
+.btn-close {
+  opacity: 5;
+}
