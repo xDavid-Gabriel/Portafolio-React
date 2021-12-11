@@ -23,9 +23,12 @@ export default function Navegacion() {
         <a href="#" className="text-white fs-4 me-3">
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="#" className="text-white fs-4 font-serif text-decoration-none">
+        <Link
+          to="/pagina4"
+          className="text-white fs-4 font-serif text-decoration-none"
+        >
           Contactame
-        </a>
+        </Link>
       </div>
 
       <nav className="main-nav">
@@ -43,17 +46,17 @@ export default function Navegacion() {
               <span className="hover-link font-serif display-1"> SOBRE MI</span>
             </Link>
           </li>
-          <li className="menu--item">
-            <a href="" className="text-decoration-none">
+          <li className="menu--item" onClick={() => setBarras(!barras)}>
+            <Link to="/pagina3" className="text-decoration-none">
               <span className="hover-link font-serif display-1">
                 MIS TRABAJOS
               </span>
-            </a>
+            </Link>
           </li>
-          <li className="menu--item">
-            <a href="" className="text-decoration-none">
+          <li className="menu--item" onClick={() => setBarras(!barras)}>
+            <Link to="/pagina4" className="text-decoration-none">
               <span className="hover-link font-serif display-1">CONTACTO</span>
-            </a>
+            </Link>
           </li>
         </Ul>
       </nav>

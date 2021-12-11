@@ -15,7 +15,7 @@ export const Section = styled.section`
 `;
 
 export const Ul = styled.ul`
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   background: linear-gradient(90deg, #ff4d5a 0.86%, #08213f 101.87%);

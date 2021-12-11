@@ -10829,6 +10829,7 @@ h6,
   font-family: "El Messiri", sans-serif;
   font-weight: 700 !important;
   color: white;
+  margin-bottom: 0;
 }
 
 body {
@@ -10842,11 +10843,22 @@ body {
   font-family: "El Messiri", sans-serif;
   font-weight: 700 !important;
   color: white;
+  flex-direction: column;
 }
 
 .font-body {
   font-family: "Didact Gothic", sans-serif;
   font-weight: 400 !important;
+}
+
+.object-cover {
+  object-fit: cover;
+  object-position: center;
+}
+
+.rounded-circle {
+  width: 47px;
+  height: 47px;
 }
 
 @media (min-width: 576px) {
@@ -10857,6 +10869,14 @@ body {
 @media (min-width: 768px) {
   .img-md-fluid {
     max-width: 100%;
+  }
+
+  .img-md-min-vh100 {
+    min-height: 100vh;
+  }
+
+  .img-md-personalisado {
+    max-width: 700px;
   }
 }
 .absolute-top {

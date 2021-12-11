@@ -1,35 +1,35 @@
 import imagenes from "../assets/imagenes";
 import { Section } from "./Pagina1Elements";
-import { Link } from "react-router-dom";
+import Pagina4Contacto from "../view/Pagina4Contacto";
 
-export default function Pagina2() {
+export default function Pagina4() {
   return (
     <>
       <Section className="container-fluid">
         <div className="row align-items-center align-content-center pagina">
           <div className="d-flex justify-content-center position-relative order-md-1 col-12 col-md-6">
-            <h4 className="text-numero text-white position-absolute">01</h4>
+            <h4 className="text-numero text-white position-absolute">03</h4>
             <img
               className="img-fluid img-sm-fluid img-md-fluid"
-              src={imagenes.img6}
-              alt="Sobre mi"
+              src={imagenes.img27}
+              alt="HIDEB"
             />
           </div>
 
           <div className="presentacion mt-4 col-12 col-md-6">
-            <h1 className="display-1">SOBRE MI</h1>
+            <h1 className="display-1">CONTACTO</h1>
             <div className="lineas"></div>
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                Amo el diseño, la tecnologia y seguir avanzando en esta vida
+                Ven trabajemos juntos, y lleguemos a buenos resultados
               </p>
-              <Link
-                to="/pagina2sobremi"
+              <a
+                href="#formulario"
                 className="mt-3 btn btn-secondary text-white font-serif"
               >
-                Leer mas
-              </Link>
+                Adelante
+              </a>
             </div>
           </div>
         </div>
@@ -45,6 +45,7 @@ export default function Pagina2() {
           <img className="d-none d-md-block" src={imagenes.img5} alt="Rayas" />
         </div>
       </Section>
+      <Pagina4Contacto />
     </>
   );
 }

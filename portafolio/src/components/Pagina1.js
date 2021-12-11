@@ -29,7 +29,7 @@ export default function Pagina1() {
         </div>
       </div>
 
-      <div className="rayas position-absolute">
+      <div className="rayas">
         <img className="img-fluid d-md-none" src={imagenes.img3} alt="Rayas" />
       </div>
 
