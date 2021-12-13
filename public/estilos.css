@@ -116,6 +116,7 @@
   font-size: 100px;
   right: 20px;
   bottom: -58px;
+  z-index: 99;
 }
 
 .lineas-azules::after {

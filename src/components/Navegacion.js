@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Ul } from "./Pagina1Elements";
 import { Link } from "react-router-dom";
+import imagenes from "../assets/imagenes";
 
 export default function Navegacion() {
   const [barras, setBarras] = useState(false);
@@ -34,9 +35,15 @@ export default function Navegacion() {
       <nav className="main-nav">
         <span onClick={() => setBarras(!barras)} type="button">
           {barras ? (
-            <i className="navegacion text-white fs-4 fas fa-times position-relative"></i>
+            <img
+              src={imagenes.img29}
+              className="navegacion   position-relative"
+            />
           ) : (
-            <i className="navegacion text-white fs-4 fas fa-bars position-relative"></i>
+            <img
+              src={imagenes.img28}
+              className="navegacion   position-relative"
+            />
           )}
         </span>
 

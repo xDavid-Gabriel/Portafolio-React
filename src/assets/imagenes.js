@@ -25,6 +25,8 @@ import pg_login from "./img/pagina-login.jpg";
 import pg_registro from "./img/pagina-registro.jpg";
 import pg_detalle from "./img/pagina-detalle.jpg";
 import contacto from "./img/contacto.jpg";
+import menu_abierto from "./img/menu-abierto.svg";
+import menu_cerrado from "./img/menu-cerrado.svg";
 
 export default {
   img1: fondo,
@@ -54,4 +56,6 @@ export default {
   img25: pg_registro,
   img26: pg_detalle,
   img27: contacto,
+  img28: menu_abierto,
+  img29: menu_cerrado,
 };

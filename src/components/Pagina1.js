@@ -4,16 +4,15 @@ import imagenes from "../assets/imagenes";
 import { Section } from "./Pagina1Elements";
 
 export default function Pagina1() {
+  const timeLine = gsap.timeline({
+    defaults: {
+      opacity: 0,
+      y: 50,
+      duration: 1.4,
+      ease: Power4.easeOut,
+    },
+  });
   useEffect(() => {
-    const timeLine = gsap.timeline({
-      defaults: {
-        opacity: 0,
-        y: 50,
-        duration: 1.4,
-        ease: Power4.easeOut,
-      },
-    });
-
     const animation = document.querySelectorAll(".animation");
     const animation2 = document.querySelectorAll(".animation-2");
     const images = document.querySelectorAll(".images");
