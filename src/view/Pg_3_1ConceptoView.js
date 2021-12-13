@@ -6,26 +6,30 @@ export default function Pg_3_1ConceptoView() {
     <>
       <section className="container-fluid ">
         <div className="row align-items-center align-content-center pagina">
-            <div className="d-md-flex align-items-md-baseline">
-          <div className="mt-4 col-12 col-md-3 col-lg-2">
-            <h5 className="text-primary fs-3">ROLL</h5>
-            <p>UI design/Codigo</p>
-          </div>
-          <div className="mt-3 col-12 col-md-3 col-lg-2">
-            <h5 className="text-primary fs-3 col-8">FECHA</h5>
-            <p>05/12/21</p>
-          </div>
-          <div className="mt-3 mb-4 col-12 col-md-3 col-lg-2">
-            <h5 className="text-primary fs-3 col-8">DESCRIPCION</h5>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the
-            </p>
-          </div>
+          <div className="d-md-flex align-items-md-baseline">
+            <div className="mt-4 col-12 col-md-3 col-lg-2">
+              <h5 className="text-primary fs-3">ROLL</h5>
+              <p>UI design/Codigo</p>
+            </div>
+            <div className="mt-3 col-12 col-md-3 col-lg-2">
+              <h5 className="text-primary fs-3 col-8">FECHA</h5>
+              <p>05/12/21</p>
+            </div>
+            <div className="mt-3 mb-4 col-12 col-md-3 col-lg-2 ">
+              <h5 className="text-primary fs-3 col-8">DESCRIPCION</h5>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the
+              </p>
+            </div>
           </div>
 
           <div className="col-12 d-flex justify-content-center">
-            <img className="img-fluid img-md-personalisado" src={imagenes.img20} alt="Resvonsive" />
+            <img
+              className="img-fluid img-md-personalisado"
+              src={imagenes.img20}
+              alt="Resvonsive"
+            />
           </div>
 
           <div className="my-4 d-flex align-items-center  col-md-6 col-lg-6 col-xl-4">
@@ -46,9 +50,9 @@ export default function Pg_3_1ConceptoView() {
         </div>
       </section>
       <section className="my-5 banner container-fluid">
-          <img className="w-100" src={imagenes.img21} alt="Banner de HIDEB" />
+        <img className="w-100" src={imagenes.img21} alt="Banner de HIDEB" />
       </section>
-      <Pg_3_2Desarrollo/>
+      <Pg_3_2Desarrollo />
     </>
   );
 }

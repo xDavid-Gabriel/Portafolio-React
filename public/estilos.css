@@ -45,7 +45,9 @@
 .pagina {
   min-height: 100vh;
 }
-
+.foco-idea {
+  overflow: hidden;
+}
 .foco-idea img {
   width: 90px;
 }
@@ -79,6 +81,7 @@
 .text-portafolio {
   top: 30%;
   right: 50%;
+  z-index: 99;
 }
 
 /*Pricipal*/
