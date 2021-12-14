@@ -5,8 +5,8 @@ export default function Pg_2_2_MisPasionesView() {
   return (
     <>
       <section className="container-fluid ">
-        <div className="row align-items-baseline align-content-center pagina">
-          <div className="my-4 d-flex align-items-center col-12 col-md-7 col-lg-9">
+        <div className=" row align-items-baseline align-content-center pagina">
+          <div className=" my-4 d-flex align-items-center col-12 col-md-7 col-lg-9">
             <div className=" lineas-azules col-4 "></div>
             <h4 className="text-primary fs-2 col-8">
               <span className="text-secondary display-1 me-2">02</span>

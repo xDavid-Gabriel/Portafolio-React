@@ -53,8 +53,8 @@ export default function Pagina2() {
                 onClick={() => {
                   timeLine.reverse(true);
                 }}
-                to="/pagina2sobremi"
                 className="mt-3 btn btn-secondary text-white font-serif animation-2"
+                to="/pagina2sobremi"
               >
                 Leer mas
               </Link>
