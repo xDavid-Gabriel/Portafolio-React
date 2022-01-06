@@ -5,8 +5,11 @@ export default function Pg_2_2_MisPasionesView() {
   return (
     <>
       <section className="container-fluid ">
-        <div className=" row align-items-baseline align-content-center pagina">
-          <div className=" my-4 d-flex align-items-center col-12 col-md-7 col-lg-9">
+        <div className="overflow-hidden row align-items-baseline align-content-center pagina">
+          <div
+            className=" my-4  d-flex align-items-center col-12 col-md-7 col-lg-9"
+            data-aos="fade-left"
+          >
             <div className=" lineas-azules col-4 "></div>
             <h4 className="text-primary fs-2 col-8">
               <span className="text-secondary display-1 me-2">02</span>
@@ -14,7 +17,10 @@ export default function Pg_2_2_MisPasionesView() {
             </h4>
           </div>
 
-          <div className="mt-5 d-flex flex-column align-items-center col-sm-6 col-lg-4">
+          <div
+            className="mt-5 overflow-hidden  d-flex flex-column align-items-center col-sm-6 col-lg-4 "
+            data-aos="fade-up"
+          >
             <img
               className="img-fluid"
               src={imagenes.img8}
@@ -29,7 +35,11 @@ export default function Pg_2_2_MisPasionesView() {
             </p>
           </div>
 
-          <div className="mt-5 d-flex flex-column align-items-center col-sm-6 col-lg-4">
+          <div
+            className="mt-5 overflow-hidden d-flex flex-column align-items-center col-sm-6 col-lg-4 "
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             <img className="img-fluid" src={imagenes.img9} alt="Tecnologia" />
             <h5 className="text-secondary text-center my-3">TECNOLOGIA</h5>
             <p className="col-lg-10 col-xl-8">
@@ -38,7 +48,11 @@ export default function Pg_2_2_MisPasionesView() {
             </p>
           </div>
 
-          <div className="mt-5 d-flex flex-column align-items-center col-sm-12 col-lg-4">
+          <div
+            className="mt-5 overflow-hidden d-flex flex-column align-items-center col-sm-12 col-lg-4"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
             <img className="img-fluid" src={imagenes.img10} alt="Creatividad" />
             <h5 className="text-secondary text-center my-3">CREATIVIDAD</h5>
             <p className="col-sm-6 col-lg-10 col-xl-8">
