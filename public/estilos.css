@@ -168,6 +168,22 @@ textarea {
 textarea:focus {
   outline: none;
 }
+
+.wassap {
+  width: 60px;
+  right: 50px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .wassap {
+    bottom: 50px;
+  }
+}
+.wassap > img {
+  width: 60px;
+}
 /*Footer*/
 footer {
   background: linear-gradient(90deg, #ff4d5a 0.86%, #08213f 101.87%);

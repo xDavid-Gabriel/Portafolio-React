@@ -52,13 +52,13 @@ export default function Pagina3() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5 animation">
-                A continuacion veremos unos de mis trabajos realizados
+                A continuación, veremos unos de mis trabajos realizados
               </p>
               <Link
                 to="/pagina3mistrabajos"
                 className="mt-3 btn btn-secondary text-white font-serif animation-2"
               >
-                Ver mas
+                Ver más
               </Link>
             </div>
           </div>

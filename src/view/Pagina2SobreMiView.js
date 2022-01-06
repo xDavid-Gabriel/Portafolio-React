@@ -21,7 +21,7 @@ export default function Pagina2SobreMiView() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                Amo el diseño, la tecnologia y seguir avanzando en esta vida
+                Amo el diseño, la tecnología y seguir avanzando en esta vida
               </p>
               <button className="mt-3 btn btn-secondary text-white font-serif rounded-circle d-flex justify-content-center align-items-center">
                 <i className="fas fa-arrow-down fs-4"></i>

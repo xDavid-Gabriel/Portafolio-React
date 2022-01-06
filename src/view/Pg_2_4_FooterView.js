@@ -12,7 +12,7 @@ export default function Pg_2_4_FooterView() {
           className="text-center text-decoration-none text-white fs-5"
           href="#"
         >
-          Contactame
+          Contáctame
         </a>
       </div>
     </footer>

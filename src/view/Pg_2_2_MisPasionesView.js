@@ -41,7 +41,7 @@ export default function Pg_2_2_MisPasionesView() {
             data-aos-delay="300"
           >
             <img className="img-fluid" src={imagenes.img9} alt="Tecnologia" />
-            <h5 className="text-secondary text-center my-3">TECNOLOGIA</h5>
+            <h5 className="text-secondary text-center my-3">TECNOLOGÍA</h5>
             <p className="col-lg-10 col-xl-8">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout.{" "}

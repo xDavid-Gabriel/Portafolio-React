@@ -27,6 +27,7 @@ import pg_detalle from "./img/pagina-detalle.jpg";
 import contacto from "./img/contacto.jpg";
 import menu_abierto from "./img/menu-abierto.svg";
 import menu_cerrado from "./img/menu-cerrado.svg";
+import wassap from "./img/wassap.svg";
 
 export default {
   img1: fondo,
@@ -58,4 +59,5 @@ export default {
   img27: contacto,
   img28: menu_abierto,
   img29: menu_cerrado,
+  img30: wassap,
 };

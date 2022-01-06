@@ -25,7 +25,7 @@ export default function Pagina3MisTrabajosView() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                HIDEB fue uno de los proyectos, mas queridos que realice
+                HIDEB fue uno de los proyectos, más queridos que realice
               </p>
               <a
                 href="https://proyectofinalfrontend2.vercel.app"

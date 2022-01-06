@@ -15,20 +15,29 @@ export default function Navegacion() {
         David Gabriel
       </Link>
       <div className="social d-flex align-items-center d-none d-md-flex">
-        <a href="#" className="text-white fs-4 me-3">
+        <a
+          href="https://www.facebook.com/david.betalleluz"
+          className="text-white fs-4 me-3"
+        >
           <i className="fab fa-facebook"></i>
         </a>
-        <a href="#" className="text-white fs-4 me-3">
+        <a
+          href="https://www.instagram.com/gabriel_betalleluz"
+          className="text-white fs-4 me-3"
+        >
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="#" className="text-white fs-4 me-3">
+        <a
+          href="https://www.linkedin.com/in/david-gabriel-cayllahua-betalleluz-i12637"
+          className="text-white fs-4 me-3"
+        >
           <i className="fab fa-linkedin"></i>
         </a>
         <Link
           to="/pagina4"
           className="text-white fs-4 font-serif text-decoration-none"
         >
-          Contactame
+          Contáctame
         </Link>
       </div>
 
