@@ -74,6 +74,27 @@ export default function Navegacion() {
               <span className="hover-link font-serif display-1">CONTACTO</span>
             </Link>
           </li>
+
+          <div className="social d-flex  mx-auto d-md-none">
+            <a
+              href="https://www.facebook.com/david.betalleluz"
+              className="text-white fs-4 me-3"
+            >
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/gabriel_betalleluz"
+              className="text-white fs-4 me-3"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/david-gabriel-cayllahua-betalleluz-i12637"
+              className="text-white fs-4 me-3"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </div>
         </Ul>
       </nav>
     </div>
