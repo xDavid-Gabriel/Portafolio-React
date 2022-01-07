@@ -6,12 +6,14 @@ export default function Pagina4Contacto() {
       <div className="row align-items-center align-content-center pagina position-relative">
         <div className="col-md-6">
           <h2 className="text-primary my-4 display-3">CONTACTO</h2>
-          <form>
+          <form name="contacto" data-netlify="true">
             <label className="text-primary fs-3 font-serif">Nombres</label>
             <input
               className="form-control my-3"
               type="text"
               placeholder="Ejem: Jorge"
+              name="nombre"
+              required
             />
 
             <label className="text-primary fs-3 font-serif">Apellidos</label>
@@ -19,6 +21,8 @@ export default function Pagina4Contacto() {
               className="form-control my-3"
               type="text"
               placeholder="Ejem: Perez"
+              name="apellido"
+              required
             />
 
             <label className="text-primary fs-3 font-serif">E-mail</label>
@@ -26,6 +30,8 @@ export default function Pagina4Contacto() {
               className="form-control my-3"
               type="email"
               placeholder="example@gmail.com"
+              name="email"
+              required
             />
 
             <label className="text-primary fs-3 font-serif">Descripción</label>
@@ -33,6 +39,8 @@ export default function Pagina4Contacto() {
               className=" my-3"
               type="text"
               placeholder="Esta es una descripcion..."
+              name="mensaje"
+              required
             />
 
             <button
