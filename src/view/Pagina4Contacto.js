@@ -7,7 +7,7 @@ export default function Pagina4Contacto() {
         <div className="col-md-6">
           <h2 className="text-primary my-4 display-3">CONTACTO</h2>
 
-          <form name="contacto" method="POST" data-netlify="true">
+          <form name="contacto" method="POST" data-netlify="true" action="/">
             <label className="text-primary fs-3 font-serif">Nombres</label>
             <input
               className="form-control my-3"
