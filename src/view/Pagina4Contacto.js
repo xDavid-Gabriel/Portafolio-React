@@ -8,6 +8,7 @@ export default function Pagina4Contacto() {
           <h2 className="text-primary my-4 display-3">CONTACTO</h2>
 
           <form name="contacto" method="POST" data-netlify="true" action="/">
+            <input type="hidden" name="form-name" value="contact" />
             <label className="text-primary fs-3 font-serif">Nombres</label>
             <input
               className="form-control my-3"
