@@ -37,6 +37,10 @@
   z-index: 9999;
   flex-grow: 1;
 }
+
+.text-red {
+  color: rgb(221, 18, 18) !important;
+}
 /*botones*/
 .btn:focus {
   box-shadow: none;
