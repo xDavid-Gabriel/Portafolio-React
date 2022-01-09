@@ -1,8 +1,8 @@
 import imagenes from "../../assets/imagenes";
 import { Section } from "../../components/Pagina1Elements";
-import P_03_ConceptoView from "../trabajos_proyecto-03/P_03_ConceptoView";
+import P_RamdonConceptoView from "./P_RamdonConceptoView";
 
-export default function Proyecto_3View() {
+export default function ProyectosRamdonView() {
   return (
     <>
       <Section id="regreso" className="container-fluid">
@@ -10,26 +10,22 @@ export default function Proyecto_3View() {
           <div className="d-flex justify-content-center position-relative order-md-1 col-12 col-md-6">
             <img
               className="img-fluid img-sm-fluid img-md-fluid object-cover img-md-min-vh100"
-              src={imagenes.img40}
+              src={imagenes.img47}
               alt="Ken"
             />
           </div>
 
           <div className="presentacion mt-4 col-12 col-md-6">
-            <h1 className="display-1">Ken</h1>
+            <h1 className="display-1">Proyectos</h1>
             <div className="lineas"></div>
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                Ken es una pequeña empresa de diseño de publicidad, la cual
-                realice
+                A continuación, mostraré mis demás proyectos realizados
               </p>
-              <a
-                href="https://ken-arte.netlify.app/"
-                className="mt-3 btn btn-secondary text-white font-serif "
-              >
-                Visitar sitio
-              </a>
+              <button className="mt-3 btn btn-secondary text-white font-serif rounded-circle d-flex justify-content-center align-items-center">
+                <i className="fas fa-arrow-down fs-4"></i>
+              </button>
             </div>
           </div>
         </div>
@@ -45,7 +41,7 @@ export default function Proyecto_3View() {
           <img className="d-none d-md-block" src={imagenes.img5} alt="Rayas" />
         </div>
       </Section>
-      <P_03_ConceptoView />
+      <P_RamdonConceptoView />
     </>
   );
 }

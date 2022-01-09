@@ -10,6 +10,7 @@ import Pagina3 from "./components/Pagina3";
 import Pagina3MisTrabajosView from "./view/Pagina3MisTrabajosView";
 import Proyecto_2View from "./view/trabajos_proyecto-02/Proyecto_2View";
 import Proyecto_3View from "./view/trabajos_proyecto-03/Proyecto_3View";
+import ProyectosRamdonView from "./view/proyectos-ramdon/ProyectosRamdonView";
 
 import Pagina4 from "./components/Pagina4";
 import PaginaGracias from "./components/PaginaGracias";
@@ -32,6 +33,7 @@ export default function App() {
           />
           <Route path="/proyecto2" element={<Proyecto_2View />} />
           <Route path="/proyecto3" element={<Proyecto_3View />} />
+          <Route path="/proyectosramdon" element={<ProyectosRamdonView />} />
 
           <Route path="/pagina4" element={<Pagina4 />} />
           <Route path="/gracias" element={<PaginaGracias />} />

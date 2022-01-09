@@ -161,6 +161,11 @@
   max-width: 60%;
 }
 
+/*Paginas proyectos ramdos*/
+.p_concepto {
+  height: 300px;
+}
+
 /*Pagina 4*/
 .form-control {
   border: 2px solid #ff4d5a;

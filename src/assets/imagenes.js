@@ -38,6 +38,21 @@ import inicio_brawl from "./img/brawl-1.png";
 import brawl_juego from "./img/juego-brawl.png";
 import brawl_victoria from "./img/brawl-victoria.png";
 import brawl_derrota from "./img/brawl-derrota.png";
+import ken_intro from "./img/ken.jpg";
+import ken_cell_pc from "./img/ken-pc-cell.png";
+import ken_banner from "./img/banner-ken.jpg";
+
+import ken_inicio from "./img/ken-inicio.jpg";
+import ken_nosotros from "./img/ken-nosotros.jpg";
+import ken_trabajos from "./img/ken-work.jpg";
+import ken_contacto from "./img/ken-contacto.jpg";
+
+import proyectos from "./img/proyectos.jpg";
+
+import blogr from "./img/blogr.jpg";
+import loopstudios from "./img/loopstudios.jpg";
+import easybank from "./img/easybank.jpg";
+import figma_land from "./img/figma.jpg";
 
 export default {
   img1: fondo,
@@ -79,4 +94,18 @@ export default {
   img37: brawl_juego,
   img38: brawl_victoria,
   img39: brawl_derrota,
+  img40: ken_intro,
+  img41: ken_cell_pc,
+  img42: ken_banner,
+
+  img43: ken_inicio,
+  img44: ken_nosotros,
+  img45: ken_trabajos,
+  img46: ken_contacto,
+  img47: proyectos,
+
+  img48: blogr,
+  img49: loopstudios,
+  img50: easybank,
+  img51: figma_land,
 };

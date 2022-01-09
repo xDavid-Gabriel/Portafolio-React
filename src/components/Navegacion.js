@@ -71,7 +71,9 @@ export default function Navegacion() {
           </li>
           <li className="menu--item" onClick={() => setBarras(!barras)}>
             <Link to="/pagina4" className="text-decoration-none">
-              <span className="hover-link font-serif display-1">CONTACTO</span>
+              <span className="hover-link font-serif display-1">
+                CONTACTAME
+              </span>
             </Link>
           </li>
 
