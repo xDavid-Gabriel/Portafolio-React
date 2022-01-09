@@ -27,9 +27,9 @@ export default function P_RamdonConceptoView() {
             className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img48} alt="Resvonsive" />
+            <img className="img-fluid " src={imagenes.img48} alt="Blogr" />
             <a
-              href="#"
+              href="https://xdavid-gabriel.github.io/FrontEnd-mentor-Blogr/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
             >
               Visitar sitio
@@ -38,12 +38,12 @@ export default function P_RamdonConceptoView() {
           <div
             className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
             data-aos="zoom-in"
-            alt="Resvonsive"
+            alt="loopstudios"
           >
             <img className="img-fluid " src={imagenes.img49} />
 
             <a
-              href="#"
+              href="https://xdavid-gabriel.github.io/LoopStudios/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
             >
               Visitar sitio
@@ -53,9 +53,9 @@ export default function P_RamdonConceptoView() {
             className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img50} alt="Resvonsive" />
+            <img className="img-fluid " src={imagenes.img50} alt="easybank" />
             <a
-              href="#"
+              href="https://xdavid-gabriel.github.io/Easybank/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
             >
               Visitar sitio
@@ -65,10 +65,37 @@ export default function P_RamdonConceptoView() {
             className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img51} alt="Resvonsive" />
+            <img className="img-fluid " src={imagenes.img51} alt="Figma land" />
 
             <a
               href="https://xdavid-gabriel.github.io/proyecto-reto-semana-3/"
+              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+            >
+              Visitar sitio
+            </a>
+          </div>
+
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            data-aos="zoom-in"
+          >
+            <img className="img-fluid " src={imagenes.img52} alt="Sunny side" />
+
+            <a
+              href="https://xdavid-gabriel.github.io/sunny_side/"
+              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+            >
+              Visitar sitio
+            </a>
+          </div>
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            data-aos="zoom-in"
+          >
+            <img className="img-fluid " src={imagenes.img53} alt="Room" />
+
+            <a
+              href="https://xdavid-gabriel.github.io/Room-Design/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
             >
               Visitar sitio
