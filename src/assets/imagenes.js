@@ -28,6 +28,16 @@ import contacto from "./img/contacto.jpg";
 import menu_abierto from "./img/menu-abierto.svg";
 import menu_cerrado from "./img/menu-cerrado.svg";
 import wassap from "./img/wassap.svg";
+import mascota from "./img/mascota.svg";
+import brawl from "./img/brawl.jpg";
+import hombre_cell from "./img/hombre-cell.png";
+import cell_tablet from "./img/brawl-cell-tablet.png";
+import banner_brawl from "./img/banner-brawl.jpg";
+
+import inicio_brawl from "./img/brawl-1.png";
+import brawl_juego from "./img/juego-brawl.png";
+import brawl_victoria from "./img/brawl-victoria.png";
+import brawl_derrota from "./img/brawl-derrota.png";
 
 export default {
   img1: fondo,
@@ -60,4 +70,13 @@ export default {
   img28: menu_abierto,
   img29: menu_cerrado,
   img30: wassap,
+  img31: mascota,
+  img32: brawl,
+  img33: hombre_cell,
+  img34: cell_tablet,
+  img35: banner_brawl,
+  img36: inicio_brawl,
+  img37: brawl_juego,
+  img38: brawl_victoria,
+  img39: brawl_derrota,
 };

@@ -156,6 +156,11 @@
   }
 }
 
+/*Pagina 3*/
+.img-brawl {
+  max-width: 60%;
+}
+
 /*Pagina 4*/
 .form-control {
   border: 2px solid #ff4d5a;
@@ -175,7 +180,7 @@ textarea:focus {
 
 .wassap {
   width: 60px;
-  right: 50px;
+  right: 20px;
   bottom: 20px;
   cursor: pointer;
 }
@@ -191,4 +196,10 @@ textarea:focus {
 /*Footer*/
 footer {
   background: linear-gradient(90deg, #ff4d5a 0.86%, #08213f 101.87%);
+}
+
+/*Pagina gracias*/
+.mascota {
+  position: relative;
+  top: 20px;
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { helpHttp } from "../helpers/helpHttp";
+import { useNavigate } from "react-router-dom";
 
 export const useForm = (initialForm, validateForm) => {
   const [form, setForm] = useState(initialForm);
@@ -16,6 +17,8 @@ export const useForm = (initialForm, validateForm) => {
     });
   };
 
+  const navigate = useNavigate();
+
   const handleBlur = (e) => {
     handleChange(e);
     setErrors(validateForm(form));
@@ -26,7 +29,8 @@ export const useForm = (initialForm, validateForm) => {
     setErrors(validateForm(form));
 
     if (Object.keys(erros).length === 0) {
-      alert("Enviando Formulario");
+      // alert("Enviando Formulario");
+      navigate("/gracias");
       setLoading(true);
       helpHttp()
         .post("https://formsubmit.co/ajax/davidbetalleluz31@gmail.com", {

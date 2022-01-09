@@ -1,7 +1,7 @@
-import imagenes from "../assets/imagenes";
-import Pg_3_2Desarrollo from "./Pg_3_2Desarrollo";
+import imagenes from "../../assets/imagenes";
+import P_02_DesarrolloView from "./P_02_DesarrolloView";
 
-export default function Pg_3_1ConceptoView() {
+export default function P_02_ConceptoView() {
   return (
     <>
       <section className="container-fluid ">
@@ -12,36 +12,46 @@ export default function Pg_3_1ConceptoView() {
           >
             <div className="mt-4 col-12 col-md-3 col-lg-2">
               <h5 className="text-primary fs-3">ROLL</h5>
-              <p>UI design/Codigo</p>
+              <p>Game/Codigo</p>
             </div>
             <div className="mt-3 col-12 col-md-3 col-lg-2">
               <h5 className="text-primary fs-3 col-8">FECHA</h5>
-              <p>05/12/21</p>
+              <p>06/01/22</p>
             </div>
             <div className="mt-3 mb-4 col-12 col-md-3 col-lg-2 ">
               <h5 className="text-primary fs-3 col-8">DESCRIPCIÓN</h5>
-              <p>Alquila cocinas fantasmas, los más pronto posibles</p>
+              <p>Encuentra a los brawlers</p>
             </div>
           </div>
 
+          
+      <div className="container">
           <div
-            className="col-12 d-flex justify-content-center"
+            className="row align-items-center"
             data-aos="zoom-in"
           >
+              <div className="d-flex justify-content-center col-12 col-md-5">
             <img
-              className="img-fluid img-md-personalisado"
-              src={imagenes.img20}
+              className="img-brawl object-cover"
+              src={imagenes.img33}
               alt="Resvonsive"
               data-aos-delay="200"
             />
+              </div>
+
+          <div className="my-5 d-flex justify-content-center col-12 col-md-7">
+            <img className="img-brawl object-cover" src={imagenes.img34} alt="celular tablet" data-aos-delay="400"/>
           </div>
+
+          </div>
+      </div>
 
           <div
             className="my-4 d-flex align-items-center  col-md-6 col-lg-6 col-xl-4"
             data-aos="fade-left"
             data-aos-delay="400"
           >
-            <div className=" lineas-azules col-3"></div>
+            <div className="lineas-azules col-3"></div>
             <h4 className="text-primary fs-2 col-8">
               <span className="text-secondary display-1 me-2">01</span>
               CONCEPTO
@@ -62,9 +72,9 @@ export default function Pg_3_1ConceptoView() {
         </div>
       </section>
       <section className="my-5 banner container-fluid">
-        <img className="w-100" src={imagenes.img21} alt="Banner de HIDEB" />
+        <img className="w-100" src={imagenes.img35} alt="Banner de Brawl Start" />
       </section>
-      <Pg_3_2Desarrollo />
+      <P_02_DesarrolloView/>
     </>
   );
 }
