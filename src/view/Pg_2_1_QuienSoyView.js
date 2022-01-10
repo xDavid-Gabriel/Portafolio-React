@@ -36,7 +36,7 @@ export default function Pg_2_1_QuienSoyView() {
               src={imagenes.img7}
               alt="David Gabriel Cayllahua Betalleluz"
             />
-            <Link to="/pdf">
+            <Link to="/pdf" className="btn btn-secondary text-white font-serif mt-4">
               Ver CV
             </Link>
           </div>
