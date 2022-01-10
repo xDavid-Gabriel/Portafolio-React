@@ -208,3 +208,9 @@ footer {
   position: relative;
   top: 20px;
 }
+
+/*Pdf*/
+iframe {
+  width: 100%;
+  min-height: 100vh;
+}

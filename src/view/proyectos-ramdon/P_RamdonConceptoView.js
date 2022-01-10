@@ -1,4 +1,5 @@
 import imagenes from "../../assets/imagenes";
+import { Link } from "react-router-dom";
 
 export default function P_RamdonConceptoView() {
   return (
@@ -127,6 +128,32 @@ export default function P_RamdonConceptoView() {
               point of using Lorem Ipsum is that it has a more-or-less normal
               distribution.
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="my-4 d-flex justify-content-between">
+        <div className="d-flex align-items-center">
+          <a href="#regreso" className="btn btn-primary me-1 me-sm-3">
+            <i className="fas fa-arrow-up"></i>
+          </a>
+          <p className="subir-next mb-0 font-serif text-secondary">Subir</p>
+        </div>
+
+        <div className="d-flex flex-column align-items-end flex-sm-row ">
+          <div className="d-flex align-items-center mb-3 mb-sm-0 me-sm-3">
+            <Link
+              to="/proyecto3"
+              className="subir-next mb-0 font-serif text-secondary text-decoration-none "
+            >
+              Regresar
+            </Link>
+            <Link
+              to="/proyecto3"
+              className="btn btn-primary order-1 ms-1 ms-sm-3 "
+            >
+              <i className="fas fa-arrow-left"></i>
+            </Link>
           </div>
         </div>
       </div>

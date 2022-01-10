@@ -15,6 +15,8 @@ import ProyectosRamdonView from "./view/proyectos-ramdon/ProyectosRamdonView";
 import Pagina4 from "./components/Pagina4";
 import PaginaGracias from "./components/PaginaGracias";
 
+import PdfView from "./view/PdfView";
+
 export default function App() {
   return (
     <>
@@ -37,6 +39,7 @@ export default function App() {
 
           <Route path="/pagina4" element={<Pagina4 />} />
           <Route path="/gracias" element={<PaginaGracias />} />
+          <Route path="/pdf" element={<PdfView />} />
         </Routes>
       </Router>
     </>

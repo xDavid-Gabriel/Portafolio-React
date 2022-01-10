@@ -1,8 +1,7 @@
-import { useEffect } from "react";
-import { gsap, ScrollTrigger } from "gsap/all";
-
 import imagenes from "../assets/imagenes";
 import Pg_2_2_MisPasionesView from "./Pg_2_2_MisPasionesView";
+
+import { Link } from "react-router-dom";
 
 export default function Pg_2_1_QuienSoyView() {
   return (
@@ -37,7 +36,11 @@ export default function Pg_2_1_QuienSoyView() {
               src={imagenes.img7}
               alt="David Gabriel Cayllahua Betalleluz"
             />
+            <Link to="/pdf">
+              Ver CV
+            </Link>
           </div>
+         
         </div>
       </section>
       <Pg_2_2_MisPasionesView />

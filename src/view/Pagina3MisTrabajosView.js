@@ -27,12 +27,12 @@ export default function Pagina3MisTrabajosView() {
               <p className="text-white fs-5 mb-0 me-4 pe-5">
                 HIDEB fue uno de los proyectos, más queridos que realice
               </p>
-              <a
+              {/* <a
                 href="https://proyectofinalfrontend2.vercel.app"
                 className="mt-3 btn btn-secondary text-white font-serif "
               >
                 Visitar sitio
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
