@@ -26,21 +26,28 @@ export default function Pg_2_1_QuienSoyView() {
           >
             <h4 className="text-primary fs-2">David Gabriel</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-              nesciunt laudantium sit adipisci non rem ducimus fuga unde fugiat
-              quidem ipsum quaerat repudiandae, vero deleniti corporis neque
-              quod ab a praesentium. Repudiandae et delectus alias.
+              Hola soy diseñador y desarrollador web, extrema damente motivado y
+              apasionado, con altas capacidades creativas relacionadas con la
+              innovación, hacia el diseño, prototipado y llevándolo a
+              producción, manteniendo interés de desarrollo en áreas como el
+              Marketing , Diseño y desarrollo web o maquetación web, también con
+              conocimientos de Frontend Developer, Tengo capacidad para trabajar
+              en grupos para proyectos corporativos, facilidad de aprendizaje,
+              desempeñar labores de diseño, código concretos, y la capacidad de
+              mantenerme actualizado en las tendencias nuevas de la tecnología
             </p>
             <img
               className="img-fluid "
               src={imagenes.img7}
               alt="David Gabriel Cayllahua Betalleluz"
             />
-            <Link to="/pdf" className="btn btn-secondary text-white font-serif mt-4">
+            <Link
+              to="/pdf"
+              className="btn btn-secondary text-white font-serif mt-4"
+            >
               Ver CV
             </Link>
           </div>
-         
         </div>
       </section>
       <Pg_2_2_MisPasionesView />

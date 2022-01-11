@@ -30,8 +30,11 @@ export default function Pg_2_2_MisPasionesView() {
               DISEÑO Y DESARROLLO WEB
             </h5>
             <p className="col-lg-10 col-xl-8">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.{" "}
+              ¡Vamos no solo te quedes con la típica página con poca
+              información!, hacer tu verdadera página web, será un buen reto, se
+              diseñara, desarrollara, haciéndola adaptable para distintos
+              dispositivos con Responsive Web Design, haz que tus ideas estén en
+              la web
             </p>
           </div>
 
@@ -43,8 +46,9 @@ export default function Pg_2_2_MisPasionesView() {
             <img className="img-fluid" src={imagenes.img9} alt="Tecnologia" />
             <h5 className="text-secondary text-center my-3">TECNOLOGÍA</h5>
             <p className="col-lg-10 col-xl-8">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.{" "}
+              Soy amante de la tecnología y quiero compartir mi ADN digital con
+              ustedes, siempre aprendiendo cada día y así poder especializarme
+              cada vez más.
             </p>
           </div>
 
@@ -56,8 +60,9 @@ export default function Pg_2_2_MisPasionesView() {
             <img className="img-fluid" src={imagenes.img10} alt="Creatividad" />
             <h5 className="text-secondary text-center my-3">CREATIVIDAD</h5>
             <p className="col-sm-6 col-lg-10 col-xl-8">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.{" "}
+              Construyo tu página web, enfocada en mostrar y seguir toda tu
+              línea gráfica, para así generar buena confianza y conversión de
+              tus visitantes.
             </p>
           </div>
         </div>
