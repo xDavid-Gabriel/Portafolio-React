@@ -18,18 +18,21 @@ export default function Navegacion() {
         <a
           href="https://www.facebook.com/david.betalleluz"
           className="text-white fs-4 me-3"
+          target="_blank"
         >
           <i className="fab fa-facebook"></i>
         </a>
         <a
           href="https://www.instagram.com/gabriel_betalleluz"
           className="text-white fs-4 me-3"
+          target="_blank"
         >
           <i className="fab fa-instagram"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/david-gabriel-cayllahua-betalleluz-i12637"
           className="text-white fs-4 me-3"
+          target="_blank"
         >
           <i className="fab fa-linkedin"></i>
         </a>

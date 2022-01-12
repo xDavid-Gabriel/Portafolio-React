@@ -47,7 +47,7 @@ export default function Pagina2() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5 animation">
-                Amo el diseño, la tecnología y seguir avanzando en esta vida
+                Amo el diseño, la tecnología y seguir avanzando en esta vida.
               </p>
               <Link
                 onClick={() => {

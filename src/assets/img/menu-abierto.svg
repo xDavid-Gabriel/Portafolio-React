@@ -1,12 +1,13 @@
-<svg id="ee79595f-1454-49d5-ad34-32cbd089af6a" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" width="50.1" height="17.2" viewBox="0 0 50.1 17.2">
+<svg id="ac1ad801-8328-44e9-9773-f490dd9dbda4" data-name="ee79595f-1454-49d5-ad34-32cbd089af6a" xmlns="http://www.w3.org/2000/svg" width="50.2" height="24.7" viewBox="0 0 50.2 24.7">
   <defs>
     <style>
-      .a4ad815a-7eec-4cd5-91ad-2e120e1384f4 {
+      .e3a460af-1496-4197-8138-5eddc1d0e5f8 {
         fill: #fff;
       }
     </style>
   </defs>
   <title>menu-abierto</title>
-  <path class="a4ad815a-7eec-4cd5-91ad-2e120e1384f4" d="M-520.1,140.4h45.2c3.2,0,3.3-5,0-5h-45.2c-3.2,0-3.2,5,0,5Z" transform="translate(522.5 -135.4)"/>
-  <path class="a4ad815a-7eec-4cd5-91ad-2e120e1384f4" d="M-520.1,152.6h45.2c3.2,0,3.3-5,0-5h-45.2c-3.2,0-3.2,5,0,5Z" transform="translate(522.5 -135.4)"/>
+  <rect class="e3a460af-1496-4197-8138-5eddc1d0e5f8" width="50" height="3.56" rx="1.8"/>
+  <rect class="e3a460af-1496-4197-8138-5eddc1d0e5f8" x="13.5" y="10.6" width="36.8" height="3.56" rx="1.8"/>
+  <rect class="e3a460af-1496-4197-8138-5eddc1d0e5f8" x="25" y="21.1" width="25.2" height="3.56" rx="1.8"/>
 </svg>

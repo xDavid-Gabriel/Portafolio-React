@@ -22,11 +22,12 @@ export default function Proyecto_3View() {
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
                 Ken es una pequeña empresa de diseño de publicidad, la cual
-                realice
+                realice.
               </p>
               <a
                 href="https://ken-arte.netlify.app/"
                 className="mt-3 btn btn-secondary text-white font-serif "
+                target="_blank"
               >
                 Visitar sitio
               </a>

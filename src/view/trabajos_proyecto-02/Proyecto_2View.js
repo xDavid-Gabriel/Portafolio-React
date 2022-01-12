@@ -26,11 +26,12 @@ export default function Proyecto_2View() {
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
                 BRAWL MEMORI es uno de los proyectos, más divertidos que pude
-                realizar
+                realizar.
               </p>
               <a
                 href="https://xdavid-gabriel.github.io/Brawl-start-memori/"
                 className="mt-3 btn btn-secondary text-white font-serif "
+                target="_blank"
               >
                 Visitar sitio
               </a>

@@ -32,6 +32,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/FrontEnd-mentor-Blogr/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>
@@ -46,6 +47,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/LoopStudios/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>
@@ -58,6 +60,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/Easybank/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>
@@ -71,6 +74,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/proyecto-reto-semana-3/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>
@@ -85,6 +89,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/sunny_side/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>
@@ -98,6 +103,7 @@ export default function P_RamdonConceptoView() {
             <a
               href="https://xdavid-gabriel.github.io/Room-Design/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
             >
               Visitar sitio
             </a>

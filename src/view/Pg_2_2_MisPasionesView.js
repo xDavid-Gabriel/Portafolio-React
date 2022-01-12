@@ -34,7 +34,7 @@ export default function Pg_2_2_MisPasionesView() {
               información!, hacer tu verdadera página web, será un buen reto, se
               diseñara, desarrollara, haciéndola adaptable para distintos
               dispositivos con Responsive Web Design, haz que tus ideas estén en
-              la web
+              la web.
             </p>
           </div>
 

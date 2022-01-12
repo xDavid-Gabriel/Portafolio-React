@@ -49,7 +49,7 @@ export default function Pagina4() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5 animation">
-                Ven trabajemos juntos, y lleguemos a buenos resultados
+                Ven trabajemos juntos, y lleguemos a buenos resultados.
               </p>
               <a
                 href="#formulario"

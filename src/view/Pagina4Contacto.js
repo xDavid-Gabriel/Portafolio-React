@@ -131,6 +131,7 @@ export default function Pagina4Contacto() {
         <a
           href="https://wa.me/51988848573"
           className="position-absolute wassap"
+          target="_blank"
         >
           <img src={imagenes.img30} alt="WhatsApp" />
         </a>
