@@ -5,7 +5,7 @@ export default function P_RamdonConceptoView() {
   return (
     <>
       <section className="container-fluid ">
-        <div className="row overflow-hidden align-items-center align-content-center pagina">
+        <div className="row justify-content-center overflow-hidden align-items-center align-content-center pagina">
           <div
             className="d-md-flex align-items-md-baseline"
             data-aos="fade-right"
@@ -102,6 +102,25 @@ export default function P_RamdonConceptoView() {
 
             <a
               href="https://xdavid-gabriel.github.io/Room-Design/"
+              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
+            >
+              Visitar sitio
+            </a>
+          </div>
+
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            data-aos="zoom-in"
+          >
+            <img
+              className="img-fluid "
+              src={imagenes.img54}
+              alt="Medical Core"
+            />
+
+            <a
+              href="https://medical-core.netlify.app/"
               className="mt-3 btn btn-secondary text-white font-serif m-auto"
               target="_blank"
             >

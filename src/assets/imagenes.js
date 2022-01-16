@@ -55,6 +55,7 @@ import easybank from "./img/easybank.jpg";
 import figma_land from "./img/figma.jpg";
 import sunny from "./img/sunny.jpg";
 import room from "./img/room.jpg";
+import medical from "./img/medical-core.jpg";
 
 export default {
   img1: fondo,
@@ -112,4 +113,5 @@ export default {
   img51: figma_land,
   img52: sunny,
   img53: room,
+  img54: medical,
 };
