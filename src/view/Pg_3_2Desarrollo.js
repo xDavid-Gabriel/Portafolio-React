@@ -26,10 +26,10 @@ export default function Pg_3_2Desarrollo() {
           </div>
 
           <div className="mt-3 mb-1 col-12 col-md-6">
-            <img className="img-fluid" src={imagenes.img22} alt="Publicacion" />
+            <img className="img-fluid" src={imagenes.img23} alt="Publicacion" />
           </div>
           <div className="mt-3 mb-1 col-12 col-md-6">
-            <img className="img-fluid" src={imagenes.img23} alt="Publicacion" />
+            <img className="img-fluid" src={imagenes.img22} alt="Publicacion" />
           </div>
           <div className="mt-3 mb-1 col-12 col-md-6">
             <img className="img-fluid" src={imagenes.img24} alt="Publicacion" />
