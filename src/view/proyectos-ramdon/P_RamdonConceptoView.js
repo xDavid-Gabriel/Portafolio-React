@@ -23,7 +23,33 @@ export default function P_RamdonConceptoView() {
               </p>
             </div>
           </div>
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            data-aos="zoom-in"
+          >
+            <img className="img-fluid " src={imagenes.img55} alt="Portafolio" />
+            <a
+              href="https://xdavid-gabriel.github.io/Portafolio-Template/"
+              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
+            >
+              Visitar sitio
+            </a>
+          </div>
 
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            data-aos="zoom-in"
+          >
+            <img className="img-fluid " src={imagenes.img56} alt="Portafolio" />
+            <a
+              href="https://xdavid-gabriel.github.io/portafolio-number-2/"
+              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              target="_blank"
+            >
+              Visitar sitio
+            </a>
+          </div>
           <div
             className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
             data-aos="zoom-in"

@@ -56,6 +56,8 @@ import figma_land from "./img/figma.jpg";
 import sunny from "./img/sunny.jpg";
 import room from "./img/room.jpg";
 import medical from "./img/medical-core.jpg";
+import portafolio_1 from "./img/portafolio-1.jpg";
+import portafolio_2 from "./img/portafolio-2.jpg";
 
 export default {
   img1: fondo,
@@ -114,4 +116,6 @@ export default {
   img52: sunny,
   img53: room,
   img54: medical,
+  img55: portafolio_1,
+  img56: portafolio_2,
 };
