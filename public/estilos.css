@@ -171,7 +171,22 @@
 .p_concepto {
   height: 300px;
 }
-
+.work_card{
+  background: #e0e0e0;
+  padding: 1.25rem;
+  border-radius:0.5rem;
+}
+.work_card > img{
+  border-radius:0.5rem;
+}
+.work_card > span {
+  display: block;
+  color: #08213f;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "El Messiri", sans-serif;
+  margin: 15px 0;
+}
 /*Pagina 4*/
 .form-control {
   border: 2px solid #ff4d5a;

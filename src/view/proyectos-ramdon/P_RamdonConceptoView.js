@@ -1,11 +1,16 @@
 import imagenes from "../../assets/imagenes";
+
 import { Link } from "react-router-dom";
 
 export default function P_RamdonConceptoView() {
+
+
   return (
     <>
-      <section className="container-fluid ">
-        <div className="row justify-content-center overflow-hidden align-items-center align-content-center pagina">
+      {/* Mixitup */}
+
+      <section className="container">
+        <div className=" row justify-content-center overflow-hidden align-items-center align-content-center pagina">
           <div
             className="d-md-flex align-items-md-baseline"
             data-aos="fade-right"
@@ -23,135 +28,190 @@ export default function P_RamdonConceptoView() {
               </p>
             </div>
           </div>
+        
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
+            <div className="work_card">
+              
             <img className="img-fluid " src={imagenes.img55} alt="Portafolio" />
+            <span>Portafolio</span>
             <a
               href="https://xdavid-gabriel.github.io/Portafolio-Template/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+            </div>
           </div>
 
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
+             <div className="work_card">
+
             <img className="img-fluid " src={imagenes.img56} alt="Portafolio" />
+            <span>Portafolio</span>
             <a
               href="https://xdavid-gabriel.github.io/portafolio-number-2/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
+             <div className="work_card">
+
+            <img className="img-fluid " src={imagenes.img57} alt="Nii Schooll" />
+            <span>Nii Schooll</span>
+            <a
+              href="https://xdavid-gabriel.github.io/Nii-school/"
+              className=" btn btn-secondary text-white m-auto"
+              target="_blank"
+            >
+              Visitar sitio
+            </a>
+             </div>
+          </div>
+          <div
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
+            data-aos="zoom-in"
+          >
+             <div className="work_card">
             <img className="img-fluid " src={imagenes.img48} alt="Blogr" />
+            
+             <span>Blogr</span>
             <a
               href="https://xdavid-gabriel.github.io/FrontEnd-mentor-Blogr/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
-            alt="loopstudios"
+            alt="loopst
+            udios"
           >
+             <div className="work_card">
+
             <img className="img-fluid " src={imagenes.img49} />
+            <span>Loop Studio</span>
 
             <a
               href="https://xdavid-gabriel.github.io/LoopStudios/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
+             <div className="work_card">
+           
             <img className="img-fluid " src={imagenes.img50} alt="easybank" />
+            <span>Easybank</span>
             <a
               href="https://xdavid-gabriel.github.io/Easybank/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img51} alt="Figma land" />
+             <div className="work_card">
 
+            <img className="img-fluid " src={imagenes.img51} alt="Figma land" />
+            
+            <span>Figma land</span>
             <a
               href="https://xdavid-gabriel.github.io/proyecto-reto-semana-3/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
 
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img52} alt="Sunny side" />
+             <div className="work_card">
 
+            <img className="img-fluid " src={imagenes.img52} alt="Sunny side" />
+            
+            <span>Sunny Side</span>
             <a
               href="https://xdavid-gabriel.github.io/sunny_side/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
-            <img className="img-fluid " src={imagenes.img53} alt="Room" />
+             <div className="work_card">
 
+            <img className="img-fluid " src={imagenes.img53} alt="Room" />
+            
+            <span>Room</span>
             <a
               href="https://xdavid-gabriel.github.io/Room-Design/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
 
           <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 my-3"
+            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
             data-aos="zoom-in"
           >
+             <div className="work_card">
+
             <img
               className="img-fluid "
               src={imagenes.img54}
               alt="Medical Core"
             />
-
+            
+            <span>Medical Core</span>
             <a
               href="https://medical-core.netlify.app/"
-              className="mt-3 btn btn-secondary text-white font-serif m-auto"
+              className=" btn btn-secondary text-white m-auto"
               target="_blank"
             >
               Visitar sitio
             </a>
+             </div>
           </div>
         </div>
       </section>
@@ -183,7 +243,7 @@ export default function P_RamdonConceptoView() {
         </div>
       </div>
 
-      <div className="my-4 d-flex justify-content-between">
+      <div className="container-fluid my-4 d-flex justify-content-between">
         <div className="d-flex align-items-center">
           <a href="#regreso" className="btn btn-primary me-1 me-sm-3">
             <i className="fas fa-arrow-up"></i>
@@ -192,7 +252,7 @@ export default function P_RamdonConceptoView() {
         </div>
 
         <div className="d-flex flex-column align-items-end flex-sm-row ">
-          <div className="d-flex align-items-center mb-3 mb-sm-0 me-sm-3">
+          <div className="d-flex align-items-center">
             <Link
               to="/proyecto3"
               className="subir-next mb-0 font-serif text-secondary text-decoration-none "
