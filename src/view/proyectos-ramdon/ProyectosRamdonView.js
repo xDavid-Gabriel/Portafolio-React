@@ -11,7 +11,7 @@ export default function ProyectosRamdonView() {
             <img
               className="img-fluid img-sm-fluid img-md-fluid object-cover img-md-min-vh100"
               src={imagenes.img47}
-              alt="Ken"
+              alt="Random"
             />
           </div>
 

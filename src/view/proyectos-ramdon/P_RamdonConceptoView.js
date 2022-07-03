@@ -1,18 +1,19 @@
-import imagenes from "../../assets/imagenes";
+import { Proyectos } from "../../components/DataProyectos";
+import ProyectosCard from "../../components/ProyectosRamdon/ProyectosCard";
+import FiltroCard from "../../components/ProyectosRamdon/FiltroCard";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 import { Link } from "react-router-dom";
 
 export default function P_RamdonConceptoView() {
-
+  const [proyectos, setProyectos] = useState(Proyectos);
 
   return (
     <>
-      {/* Mixitup */}
-
       <section className="container">
-        <div className=" row justify-content-center overflow-hidden align-items-center align-content-center pagina">
           <div
-            className="d-md-flex align-items-md-baseline"
+            className="d-md-flex align-items-md-baseline my-5"
             data-aos="fade-right"
           >
             <div className="mt-4 col-12 col-md-3 col-lg-1">
@@ -28,199 +29,22 @@ export default function P_RamdonConceptoView() {
               </p>
             </div>
           </div>
-        
-          <div
-            className="d-flex align-content-center flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-            <div className="work_card">
-              
-            <img className="img-fluid " src={imagenes.img55} alt="Portafolio" />
-            <span>Portafolio</span>
-            <a
-              href="https://xdavid-gabriel.github.io/Portafolio-Template/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-            </div>
-          </div>
 
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
+          <FiltroCard setProyectos={setProyectos} />
+       <motion.div layout className="row">
 
-            <img className="img-fluid " src={imagenes.img56} alt="Portafolio" />
-            <span>Portafolio</span>
-            <a
-              href="https://xdavid-gabriel.github.io/portafolio-number-2/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-
-            <img className="img-fluid " src={imagenes.img57} alt="Nii Schooll" />
-            <span>Nii Schooll</span>
-            <a
-              href="https://xdavid-gabriel.github.io/Nii-school/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-            <img className="img-fluid " src={imagenes.img48} alt="Blogr" />
-            
-             <span>Blogr</span>
-            <a
-              href="https://xdavid-gabriel.github.io/FrontEnd-mentor-Blogr/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-            alt="loopst
-            udios"
-          >
-             <div className="work_card">
-
-            <img className="img-fluid " src={imagenes.img49} />
-            <span>Loop Studio</span>
-
-            <a
-              href="https://xdavid-gabriel.github.io/LoopStudios/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-           
-            <img className="img-fluid " src={imagenes.img50} alt="easybank" />
-            <span>Easybank</span>
-            <a
-              href="https://xdavid-gabriel.github.io/Easybank/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-
-            <img className="img-fluid " src={imagenes.img51} alt="Figma land" />
-            
-            <span>Figma land</span>
-            <a
-              href="https://xdavid-gabriel.github.io/proyecto-reto-semana-3/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-
-            <img className="img-fluid " src={imagenes.img52} alt="Sunny side" />
-            
-            <span>Sunny Side</span>
-            <a
-              href="https://xdavid-gabriel.github.io/sunny_side/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-
-            <img className="img-fluid " src={imagenes.img53} alt="Room" />
-            
-            <span>Room</span>
-            <a
-              href="https://xdavid-gabriel.github.io/Room-Design/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-
-          <div
-            className="d-flex align-content-center  flex-column col-12 col-md-6 col-lg-4 my-3"
-            data-aos="zoom-in"
-          >
-             <div className="work_card">
-
-            <img
-              className="img-fluid "
-              src={imagenes.img54}
-              alt="Medical Core"
-            />
-            
-            <span>Medical Core</span>
-            <a
-              href="https://medical-core.netlify.app/"
-              className=" btn btn-secondary text-white m-auto"
-              target="_blank"
-            >
-              Visitar sitio
-            </a>
-             </div>
-          </div>
-        </div>
+         <AnimatePresence>
+            {proyectos.map((proyecto) => {
+              return <ProyectosCard key={proyecto.id} proyecto={proyecto} />;
+            })}
+         </AnimatePresence>
+       </motion.div>  
       </section>
 
       <div className="container-fluid">
         <div className="row overflow-hidden align-items-center align-content-center p_concepto">
           <div
             className="my-4 d-flex align-items-center col-md-6 col-lg-6 col-xl-4"
-            data-aos="fade-left"
           >
             <div className="lineas-azules col-3"></div>
             <h4 className="text-primary fs-2 col-8">
@@ -230,8 +54,7 @@ export default function P_RamdonConceptoView() {
           </div>
           <div
             className="col-md-6 col-lg-6 col-xl-5"
-            data-aos="fade-left"
-            data-aos-delay="400"
+            
           >
             <p>
               It is a long established fact that a reader will be distracted by

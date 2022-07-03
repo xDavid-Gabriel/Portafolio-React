@@ -171,6 +171,33 @@
 .p_concepto {
   height: 300px;
 }
+.filtro-container{
+  display: flex;
+  gap: 20px;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin: 20px 0;
+}
+
+.proyecto-activo, .no-activo:hover{
+  border: 1px solid #ff4d5a;
+  background: #ff4d5a;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 10px 15px;
+  
+} 
+.no-activo{
+  border: 1px solid #ff4d5a;
+  border-radius: 50px;
+  background: transparent;
+  font-size: 16px;
+  transition: .5s;
+  padding: 10px 15px;
+  color: #08213f;
+}
+
 .work_card{
   background: #e0e0e0;
   padding: 1.25rem;
