@@ -38,14 +38,15 @@ import inicio_brawl from "./img/brawl-1.png";
 import brawl_juego from "./img/juego-brawl.png";
 import brawl_victoria from "./img/brawl-victoria.png";
 import brawl_derrota from "./img/brawl-derrota.png";
-import ken_intro from "./img/ken.jpg";
-import ken_cell_pc from "./img/ken-pc-cell.png";
-import ken_banner from "./img/banner-ken.jpg";
 
-import ken_inicio from "./img/ken-inicio.jpg";
-import ken_nosotros from "./img/ken-nosotros.jpg";
-import ken_trabajos from "./img/ken-work.jpg";
-import ken_contacto from "./img/ken-contacto.jpg";
+import ken_intro from "./img/ken.jpg";
+import dashboard_cell_pc from "./img/dashboard-pc-cell.png";
+import dashboard_banner from "./img/banner-dashboard.jpg";
+
+import dashboard_uno from "./img/dashboard-uno.jpg";
+import dashboard_dos from "./img/dashboard-dos.jpg";
+import dashboard_tres from "./img/dashboard-tres.jpg";
+import dashboard_cuatro from "./img/dashboard-cuatro.jpg";
 
 import proyectos from "./img/proyectos.jpg";
 
@@ -59,6 +60,8 @@ import medical from "./img/medical-core.jpg";
 import portafolio_1 from "./img/portafolio-1.jpg";
 import portafolio_2 from "./img/portafolio-2.jpg";
 import nii_school from "./img/nii-schooll.png";
+
+import dashboard from "./img/dashboard.jpg";
 
 export default {
   img1: fondo,
@@ -92,6 +95,7 @@ export default {
   img29: menu_cerrado,
   img30: wassap,
   img31: mascota,
+
   img32: brawl,
   img33: hombre_cell,
   img34: cell_tablet,
@@ -100,14 +104,15 @@ export default {
   img37: brawl_juego,
   img38: brawl_victoria,
   img39: brawl_derrota,
-  img40: ken_intro,
-  img41: ken_cell_pc,
-  img42: ken_banner,
 
-  img43: ken_inicio,
-  img44: ken_nosotros,
-  img45: ken_trabajos,
-  img46: ken_contacto,
+  img40: ken_intro,
+  img41: dashboard_cell_pc,
+  img42: dashboard_banner,
+  img43: dashboard_uno,
+  img44: dashboard_dos,
+  img45: dashboard_tres,
+  img46: dashboard_cuatro,
+
   img47: proyectos,
 
   img48: blogr,
@@ -119,5 +124,7 @@ export default {
   img54: medical,
   img55: portafolio_1,
   img56: portafolio_2,
-  img57:nii_school
+  img57:nii_school,
+
+  img58: dashboard,
 };

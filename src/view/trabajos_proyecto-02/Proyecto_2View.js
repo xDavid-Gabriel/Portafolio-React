@@ -20,7 +20,7 @@ export default function Proyecto_2View() {
               BRAWL
               <br />
               MEMORI
-            </h1>
+            </h1> 
             <div className="lineas"></div>
 
             <div className="descripcion mt-4 ">

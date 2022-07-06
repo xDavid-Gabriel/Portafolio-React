@@ -16,11 +16,11 @@ export default function P_03_ConceptoView() {
             </div>
             <div className="mt-3 col-12 col-md-3 col-lg-2">
               <h5 className="text-primary fs-3 col-8">FECHA</h5>
-              <p>26/12/21</p>
+              <p>05/07/22</p>
             </div>
             <div className="mt-3 mb-4 col-12 col-md-3 col-lg-2 ">
               <h5 className="text-primary fs-3 col-8">DESCRIPCIÓN</h5>
-              <p>Ken Arte y diseño</p>
+              <p>Dashboard</p>
             </div>
           </div>
 
@@ -53,10 +53,7 @@ export default function P_03_ConceptoView() {
             data-aos-delay="400"
           >
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution.
+            El proyecto fue realizado con motivos, para poder reutilizar componentes en futuros proyectos y así poder implementarlas fácilmente.
             </p>
           </div>
         </div>

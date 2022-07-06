@@ -10,22 +10,23 @@ export default function Proyecto_3View() {
           <div className="d-flex justify-content-center position-relative order-md-1 col-12 col-md-6">
             <img
               className="img-fluid img-sm-fluid img-md-fluid object-cover img-md-min-vh100"
-              src={imagenes.img40}
+              src={imagenes.img58}
+              style={{objectPosition:"left"}}
               alt="Ken"
             />
           </div>
 
           <div className="presentacion mt-4 col-12 col-md-6">
-            <h1 className="display-1">Ken</h1>
+            <h1 className="display-1">Dashboard</h1>
             <div className="lineas"></div>
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                Ken es una pequeña empresa de diseño de publicidad, la cual
-                realice.
+              Este proyecto fue realizado para reutilizar componentes.
               </p>
               <a
-                href="https://ken-arte.netlify.app/"
+                // href="https://ken-arte.netlify.app/"
+                href="https://dashboard-zeta-tan.vercel.app/"
                 className="mt-3 btn btn-secondary text-white font-serif "
                 target="_blank"
               >
