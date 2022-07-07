@@ -93,6 +93,14 @@ const Proyectos = [
     link:"Visitar sitio",
     image:imagenes.img53,
     category: "frontendmentor",
+  },
+  {
+    id: 11,
+    title: "Ken",
+    href:"https://ken-arte.netlify.app/",
+    link:"Visitar sitio",
+    image:imagenes.img40,
+    category: "frontendmentor",
   }
 ];
 
