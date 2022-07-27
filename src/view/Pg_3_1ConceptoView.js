@@ -16,11 +16,11 @@ export default function Pg_3_1ConceptoView() {
             </div>
             <div className="mt-3 col-12 col-md-3 col-lg-2">
               <h5 className="text-primary fs-3 col-8">FECHA</h5>
-              <p>05/12/21</p>
+              <p>25/07/22</p>
             </div>
             <div className="mt-3 mb-4 col-12 col-md-3 col-lg-2 ">
               <h5 className="text-primary fs-3 col-8">DESCRIPCIÓN</h5>
-              <p>Alquila cocinas fantasmas, los más pronto posibles</p>
+              <p>Gym App</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ export default function Pg_3_1ConceptoView() {
           >
             <img
               className="img-fluid img-md-personalisado"
-              src={imagenes.img20}
+              src="https://i.ibb.co/JvrscTS/pc-cell.png"
               alt="Resvonsive"
               data-aos-delay="200"
             />
@@ -53,16 +53,15 @@ export default function Pg_3_1ConceptoView() {
             data-aos-delay="400"
           >
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution.
+              Mostrar al usuario demostraciones de ejercicios, donde podrá
+              buscar por categorías, filtro, e ir al detalle.
             </p>
           </div>
         </div>
       </section>
       <section className="my-5 banner container-fluid">
-        <img className="w-100" src={imagenes.img21} alt="Banner de HIDEB" />
+        {/* <img className="w-100" src={imagenes.img21} alt="Banner de HIDEB" /> */}
+        <div className="decora__banner"></div>
       </section>
       <Pg_3_2Desarrollo />
     </>

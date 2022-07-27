@@ -37,7 +37,7 @@ export default function Pagina3() {
             </h4>
             <img
               className="img-fluid img-sm-fluid img-md-fluid images"
-              src={imagenes.img19}
+              src="https://i.ibb.co/yp9pKNS/gym-golds.jpg"
               alt="HIDEB"
             />
           </div>

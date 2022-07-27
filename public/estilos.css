@@ -166,6 +166,11 @@
 .img-brawl {
   max-width: 60%;
 }
+.decora__banner{
+ width: 100%;
+ height: 250px;
+ background: linear-gradient(90deg, #ff4d5a 0.86%, #08213f 101.87%);; 
+}
 
 /*Paginas proyectos ramdos*/
 .p_concepto {

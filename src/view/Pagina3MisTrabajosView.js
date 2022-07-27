@@ -10,8 +10,8 @@ export default function Pagina3MisTrabajosView() {
           <div className="d-flex justify-content-center position-relative order-md-1 col-12 col-md-6">
             <img
               className="img-fluid img-sm-fluid img-md-fluid object-cover img-md-min-vh100"
-              src={imagenes.img19}
-              alt="HIDEB"
+              src="https://i.ibb.co/yp9pKNS/gym-golds.jpg"
+              alt="Golds Gym"
             />
           </div>
 
@@ -25,14 +25,16 @@ export default function Pagina3MisTrabajosView() {
 
             <div className="descripcion mt-4 ">
               <p className="text-white fs-5 mb-0 me-4 pe-5">
-                HIDEB fue uno de los proyectos, más queridos que realice.
+                Golds Gym fue uno de los proyectos, más queridos que realice.
               </p>
-              {/* <a
-                href="https://proyectofinalfrontend2.vercel.app"
+              <a
+                href="https://gym-app-omega.vercel.app/"
+                target="_blank"
                 className="mt-3 btn btn-secondary text-white font-serif "
+                rel="noreferrer"
               >
                 Visitar sitio
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
